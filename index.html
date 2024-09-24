@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PAYMENT</title>
-    <style type="text/css">
-       img{
-         margin-top: 100px;
-       }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-    <a href="tel:9818929324">9818929324</a>
+    <div class="container">
+        <div class="logo">
+            <img src="facebook-logo.png" alt="Facebook Logo">
         </div>
-   <h1>SCAN AND TAKE MEMBERSHIP</h1>
-<img src="esewa.png">
+        <div class="login-form">
+            <form>
+                <input type="text" placeholder="Email or Phone Number" id="email" name="email">
+                <input type="password" placeholder="Password" id="password" name="password">
+                <button type="submit">Log In</button>
+                <a href="#">Forgot account?</a>
+            </form>
+            <div class="or-separator">
+                <span>or</span>
+            </div>
+            <button class="facebook-btn">Create New Account</button>
+        </div>
+    </div>
 </body>
 </html>
